@@ -19,6 +19,13 @@ and implement ip-range filtering. (161.200.238.18/28)
 ## Hint!!
 
 ```
+/* 
+ * main.c
+ * 
+ * bash$ gcc main.c -o a.out
+ * bash$ ./a.out
+ * Open out.pcap with Wireshark.
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
